@@ -1,0 +1,98 @@
+[
+{
+  "question": "Was ist eine Assoziation in einem Klassendiagramm?",
+  "answer": "Eine strukturelle Beziehung zwischen zwei Klassen, die ausdrückt, dass Objekte der einen Klasse mit Objekten der anderen in Verbindung stehen."
+},
+{
+  "question": "Welche Bedeutung hat eine Assoziation zwischen zwei Klassen?",
+  "answer": "Sie zeigt, dass Objekte beider Klassen zur Laufzeit miteinander verbunden sind bzw. kommunizieren/verweisen."
+},
+{
+  "question": "Wie wird eine Assoziation in einem Klassendiagramm dargestellt?",
+  "answer": "Als durchgezogene Linie zwischen zwei Klassen, oft mit Multiplizitätsangaben an den Enden."
+},
+{
+  "question": "Was ist eine Multiplizität in einem Klassendiagramm?",
+  "answer": "Die Angabe, wie viele Objekte einer Klasse mit einem Objekt der anderen Klasse in Beziehung stehen können."
+},
+{
+  "question": "Wozu dient die Multiplizität bei einer Beziehung zwischen Klassen?",
+  "answer": "Sie legt fest, wie viele Instanzen jeweils an der Beziehung beteiligt sein dürfen/müssen."
+},
+{
+  "question": "Was bedeutet die Multiplizität 1?",
+  "answer": "Genau ein Objekt."
+},
+{
+  "question": "Was bedeutet die Multiplizität 0..1?",
+  "answer": "Kein oder genau ein Objekt (optional, maximal eins)."
+},
+{
+  "question": "Was bedeutet die Multiplizität \\*?",
+  "answer": "Beliebig viele Objekte (0 bis unendlich)."
+},
+{
+  "question": "Was bedeutet die Multiplizität 1..\\*?",
+  "answer": "Mindestens ein Objekt, beliebig viele nach oben."
+},
+{
+  "question": "Was bedeutet die Multiplizität 0..\\*?",
+  "answer": "Kein bis beliebig viele Objekte."
+},
+{
+  "question": "Was ist eine Vererbung im Klassendiagramm?",
+  "answer": "Eine Beziehung, bei der eine Unterklasse Attribute und Methoden einer Oberklasse übernimmt."
+},
+{
+  "question": "Welche Bedeutung hat eine Vererbung zwischen zwei Klassen?",
+  "answer": "Die Unterklasse erbt Struktur und Verhalten der Oberklasse und kann diese erweitern oder überschreiben."
+},
+{
+  "question": "Wie wird eine Vererbung in UML dargestellt?",
+  "answer": "Durchgezogene Linie mit nicht ausgefülltem Dreieck als Pfeilspitze."
+},
+{
+  "question": "In welche Richtung zeigt der Pfeil bei einer Vererbung?",
+  "answer": "Von der Unterklasse zur Oberklasse."
+},
+{
+  "question": "Was ist eine Oberklasse?",
+  "answer": "Die allgemeinere Klasse, von der geerbt wird (auch Basisklasse/Superklasse genannt)."
+},
+{
+  "question": "Was ist eine Unterklasse?",
+  "answer": "Die speziellere Klasse, die von einer Oberklasse erbt (auch abgeleitete Klasse genannt)."
+},
+{
+  "question": "Welche Eigenschaften kann eine Unterklasse von einer Oberklasse übernehmen?",
+  "answer": "Alle nicht-privaten Attribute und Methoden der Oberklasse."
+},
+{
+  "question": "Was ist der Unterschied zwischen Oberklasse und Unterklasse?",
+  "answer": "Die Oberklasse ist allgemeiner und vererbt, die Unterklasse ist spezieller und erbt zusätzlich eigene Merkmale."
+},
+{
+  "question": "Was bedeutet Spezialisierung bei einer Vererbung?",
+  "answer": "Die Unterklasse verfeinert die Oberklasse um zusätzliche, spezifischere Eigenschaften."
+},
+{
+  "question": "Was bedeutet Generalisierung bei einer Vererbung?",
+  "answer": "Gemeinsame Eigenschaften mehrerer Klassen werden in einer übergeordneten, allgemeineren Klasse zusammengefasst."
+},
+{
+  "question": "Wie kann eine Vererbung fachlich beschrieben werden?",
+  "answer": "„Die Unterklasse erbt alle Attribute und Methoden der Oberklasse und kann diese ergänzen oder überschreiben.“"
+},
+{
+  "question": "Was bedeutet „vom Speziellen zum Allgemeinen“ bei einer UML-Beziehung?",
+  "answer": "Der Vererbungspfeil zeigt immer von der spezielleren Unterklasse zur allgemeineren Oberklasse."
+},
+{
+  "question": "Wie sieht das UML-Symbol für eine Vererbung aus?",
+  "answer": "Eine durchgezogene Linie mit einem nicht ausgefüllten, geschlossenen Dreieck an der Spitze."
+},
+{
+  "question": "Was bedeutet ein nicht ausgefülltes Dreieck bei einer UML-Beziehung?",
+  "answer": "Es kennzeichnet eine Vererbungs- oder Implementierungsbeziehung."
+}
+]
